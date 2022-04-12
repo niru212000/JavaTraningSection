@@ -1,0 +1,48 @@
+package JavaBasics;
+
+public class ArraysOneDimensional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Interger Arrays
+		int i[]=new int[4];
+		
+		i[0]=10;
+		i[1]=20;
+		i[2]=30;
+		i[3]=40;
+		
+		System.out.println(i[3]);
+		System.out.println(i.length);
+		
+		//print all values: use for loop
+		
+		for(int j=0; j<4; j++) {
+		     System.out.println(i[j]);
+		}
+		
+		
+		//Double Arrays
+		
+		double d[]=new double[3];
+		d[0]=12.33;
+		d[1]=13.44;
+		d[2]=45.55;
+		
+		System.out.println(d[2]);
+		
+		//Object Arrays
+		
+		Object ob[]=new Object[3];
+		
+		ob[0]="tom";
+		ob[1]='m';
+		ob[2]=12.33;
+		
+		System.out.println(ob[1]);
+		
+			
+		}
+		
+
+	}
