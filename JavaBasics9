@@ -1,0 +1,34 @@
+package OOpsConcept;
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		
+		MethodOverloading obj=new MethodOverloading();
+		
+		obj.sum();
+		obj.sum(10);
+		obj.sum(10,5);
+	}
+	
+	
+	    //Zero input parameter
+		public void sum() {
+			System.out.println("0 input parameter");
+		}
+		
+		//One input parameter
+		public void sum(int i) {
+			System.out.println("1 input parameter");
+			System.out.println(i);
+		}
+		
+		//Two input parameter
+		public void sum(int k, int l) {
+			System.out.println("2 input parameter");
+			System.out.println(k+l);
+		}
+
+	}
+
+
