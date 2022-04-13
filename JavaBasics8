@@ -1,0 +1,31 @@
+package OOpsConcept;
+
+public class LocalVsGlobalVariables {
+	
+	//Global variables
+	
+	String name="Tom";
+	int age=25;
+
+	public static void main(String[] args) {
+		
+		
+		//local variables for main method
+		int i=10;
+		System.out.println(i);
+		
+		LocalVsGlobalVariables obj=new LocalVsGlobalVariables();
+		
+		System.out.println(obj.name);
+		System.out.println(obj.age);
+	}
+	
+	    //local variables for sum method 
+		public void sum() {
+		
+		int i=15;
+		int j=20;
+		}
+	}
+
+
